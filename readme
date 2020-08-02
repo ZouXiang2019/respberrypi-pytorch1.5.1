@@ -1,2 +1,14 @@
-用于树莓派安装pytorch1.5.1
+用于树莓派3B安装pytorch1.5.1
+系统在这里：
+链接：https://pan.baidu.com/s/1DXktTyWWao4YYHXPMxeDVQ 
+提取码：n1tr
 python环境为3.7.3
+具体安装步骤可参考--“在树莓派上编译安装pytorch”，注意：创建虚拟环境的文件夹名字更改为my_envs,安装步骤参考：https://cloud.tencent.com/developer/article/1625850
+requirements.txt不需要安装，只是为了运行例子才需要安装；export的6个写齐全
+https://github.com/pytorch/pytorch下载的太慢了，于是我下载了两天后保存到这里：
+链接：https://pan.baidu.com/s/1Jgj0WHfHQ77BNweKrqjTlA 
+提取码：loe1 
+复制这段内容后打开百度网盘手机App，操作更方便哦
+生成的.whl文件在这里，如果你的python版本和想安装的pytorch版本是这个的：
+（要编译两天，有时间传上来）
+如果使用.whl文件安装的话，只需要在相应目录pip3 install .whl文件名就可以
